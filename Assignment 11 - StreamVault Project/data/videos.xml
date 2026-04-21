@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="videos.xsl"?>
+<!DOCTYPE video_library SYSTEM "videos.dtd">
+<video_library>
+    <video id="v001" type="movie">
+        <title>The Last Horizon</title>
+        <genre>Sci-Fi</genre>
+        <duration>02:18:00</duration>
+        <views>142800</views>
+        <rating>4.7</rating>
+        <year>2024</year>
+        <status>active</status>
+    </video>
+    <video id="v002" type="movie">
+        <title>Midnight Shadows</title>
+        <genre>Thriller</genre>
+        <duration>01:54:30</duration>
+        <views>98600</views>
+        <rating>4.5</rating>
+        <year>2023</year>
+        <status>active</status>
+    </video>
+    <video id="v003" type="series">
+        <title>Champions Forever</title>
+        <genre>Sports</genre>
+        <duration>01:42:15</duration>
+        <views>76300</views>
+        <rating>4.8</rating>
+        <year>2024</year>
+        <status>active</status>
+    </video>
+    <video id="v004" type="movie">
+        <title>Code Red</title>
+        <genre>Action</genre>
+        <duration>01:58:20</duration>
+        <views>212400</views>
+        <rating>4.6</rating>
+        <year>2024</year>
+        <status>active</status>
+    </video>
+</video_library>

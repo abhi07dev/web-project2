@@ -1,0 +1,13 @@
+<!ELEMENT video_library (video+)>
+<!ELEMENT video (title, genre, duration, views, rating, year, status)>
+<!ATTLIST video 
+    id ID #REQUIRED
+    type (movie | series | documentary) "movie">
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT views (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
